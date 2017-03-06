@@ -177,8 +177,7 @@ LOCAL_CFLAGS += \
 	-DPREFIX='"/system/usr"' \
 	-DEXEC_PREFIX='"/system/usr"' \
 	-DVERSION='"3.6"' \
-	-DVPATH='""' \
-	-DPYTHONPATH='":"' \
+	-DVPATH='""'
 
 PROGRAM_SRC := Programs/python.c
 
